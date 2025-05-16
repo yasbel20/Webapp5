@@ -1,0 +1,174 @@
+/* Google Font para Roboto Slab */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap');
+
+/* Paleta de colores profesionales en Sepia y tonos cálidos */
+:root {
+  --primary-color: #5C4033;  /* Tonalidad Sepia */
+  --secondary-color: #D7C49E; /* Tonos dorados suaves */
+  --background-color: #FAF3E0; /* Color de fondo claro */
+  --button-bg: #7A5C48; /* Color de fondo del botón */
+  --button-hover-bg: #9B7C5D; /* Hover del botón */
+  --text-color: #4A3C31; /* Texto oscuro */
+  --error-color: #FF5C5C; /* Rojo de error */
+  --link-color: #D1A15B; /* Color de los enlaces */
+  --link-hover-color: #5C4033; /* Hover de los enlaces */
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+}
+
+.register-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+/* Columna izquierda (Texto explicativo) */
+.left-column {
+  max-width: 600px;
+  flex: 1;
+  padding: 20px;
+}
+
+.left-column h2 {
+  font-size: 28px;
+  color: var(--primary-color);
+  margin-bottom: 30px;
+  font-weight:150px;
+}
+
+.left-column p {
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+/* Columna derecha (Formulario de registro) */
+.right-column {
+  flex: 1;
+  max-width: 400px;  /* Max width del formulario */
+}
+
+/* Estilos del formulario */
+.register-form {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  color: var(--primary-color);
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  background-color: var(--button-bg);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: var(--button-hover-bg);
+}
+
+.error-message {
+  color: var(--error-color);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-links a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 600px) {
+  .register-form {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
+/* Contenedor principal del eslogan */
+.eslogan-container {
+  text-align: center;
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+
+/* Estilo para el texto del eslogan */
+.eslogan {
+  font-family: 'Roboto Slab', serif;
+  font-size: 32px; /* Tamaño grande para resaltar el eslogan */
+  font-weight: 700; /* Peso de fuente para hacerlo más impactante */
+  line-height: 1.4;
+  text-transform: uppercase; /* Para darle un toque más estilizado */
+  letter-spacing: 2px; /* Espaciado entre letras */
+  max-width: 80%;
+  margin: 0 auto;
+  color:white;
+  text-decoration-color: white;
+
+
+
+  
+}
+
+
+/* Agregar un fondo suave al texto para destacarlo */
+.eslogan-container {
+  border-radius: 15px;
+  padding: 30px;
+  background-color: #d2b48c;
+  border-radius: 32px;
+
+}
+
